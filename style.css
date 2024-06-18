@@ -1,3 +1,48 @@
-.plante{
-    color:#009d94;
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+
+body{
+    font-family: "Roboto", "sans-serif";
+    font-weight: 300;
+    font-style: normal;
+}
+.publi{
+    padding: 8px;
+    text-align: center;
+    background-color: #e8999f ;
+    color: white;
+    font-size: 12px;
+
+    
+}
+
+.headeruno{
+    display:flex;
+    justify-content: space-between;
+    padding: 10px;
+    gap: 20px;
+    align-items: center;
+}
+.menu nav
+{
+    display: flex;
+    gap: 20px;
+    color: rgba(0, 157, 149, 1);
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+.usuario{
+    display: flex;
+    gap: 20px;
+}
+.usuario svg{
+ width: 25px;
+ color:rgba(0, 157, 149, 1);
+}
+
+.mastheard{
+    display:flex;
+    justify-content: center;
+    padding: 20px;
+
 }
